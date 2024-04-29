@@ -1,5 +1,5 @@
-# Gaussian Elimination
-
+# EX-6: Gaussian Elimination
+### DATE:06.04.24
 ## AIM:
 To write a program to find the solution of a matrix using Gaussian Elimination.
 
@@ -20,6 +20,7 @@ Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: Mohankumar.S
 RegisterNumber: 23005002014
 */
+```
 ```
 import numpy as np
 import sys
@@ -44,8 +45,11 @@ x[i]=x[i]-a[i][j]*x[j]
 x[i]=x[i]/a[i][i]
 for i in range(n):
 print('X%d = %0.2f' %(i,x[i]),end=' ')
-
+```
 ## Output:
+![image](https://github.com/MohanKumar755/Gaussian/assets/146155007/76e58f6d-2a2b-4649-abd2-833dbd9b1def)
+![image](https://github.com/MohanKumar755/Gaussian/assets/146155007/255d244c-0c8b-42de-95da-4c740c2ce73f)
+
 
 ## Result:
 Thus the program to find the solution of a matrix using Gaussian Elimination is written and verified using python programming.
