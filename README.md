@@ -20,8 +20,6 @@ Program to find the solution of a matrix using Gaussian Elimination.
 Developed by: Mohankumar.S
 RegisterNumber: 23005002014
 */
-```
-```
 import numpy as np
 import sys
 n=int(input())
